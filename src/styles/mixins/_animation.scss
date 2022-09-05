@@ -1,0 +1,6 @@
+@use '../animations/index';
+
+@mixin animation($animation-name) {
+  animation: $animation-name;
+  animation-fill-mode: forwards;
+}
