@@ -18,6 +18,8 @@ jobs:
           node-version: '14.x'
       - name: Install dependencies
         run: yarn
+      - name: Up dev server
+        run: yarn dev
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
