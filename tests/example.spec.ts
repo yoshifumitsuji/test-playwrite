@@ -6,6 +6,7 @@ test('homepage has Playwright in title and get started link linking to the intro
   // await page.goto('https://google.com')
   // await page.goto('https://example.com')
   await page.goto('http://localhost:3000')
+  // await page.goto('http://host.docker.internal:3000')
 
   // // Expect a title "to contain" a substring.
   // await expect(page).toHaveTitle(/Playwright/)
